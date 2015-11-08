@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Skills>
+  <!--Item:
+        ID: ID of skill
+        Name: Name of skill
+        Title: Title of someone with this skill.  Used in population overview ui
+  -->
+  <Item>
+    <ID>Mining</ID>
+    <Name>Minage</Name>
+    <Title>Mineur</Title>
+  </Item>
+  <Item>
+    <ID>Masonry</ID>
+    <Name>Maconnerie</Name>
+    <Title>Macon</Title>
+  </Item>
+  <Item>
+    <ID>Stonecarving</ID>
+    <Name>Sculpture de pierre</Name>
+    <Title>Sculpteur de pierre</Title>
+  </Item>
+  <Item>
+    <ID>Woodcutting</ID>
+    <Name>Bucheronnage</Name>
+    <Title>Bucheron</Title>
+  </Item>
+  <Item>
+    <ID>Carpentry</ID>
+    <Name>Menuiserie</Name>
+    <Title>Menuisier</Title>
+  </Item>
+  <Item>
+    <ID>Woodcarving</ID>
+    <Name>Sculpture de bois</Name>
+    <Title>Sculpteur de bois</Title>
+  </Item>
+  <Item>
+    <ID>Smelting</ID>
+    <Name>Fonte</Name>
+    <Title>Fondeur</Title>
+  </Item>
+  <Item>
+    <ID>Blacksmithing</ID>
+    <Name>Forge</Name>
+    <Title>Forgeron</Title>
+  </Item>
+  <Item>
+    <ID>Metalworking</ID>
+    <Name>Travail du metal</Name>
+    <Title>Metallier</Title>
+  </Item>
+  <Item>
+    <ID>WeaponCrafting</ID>
+    <Name>Fabrication d'armes</Name>
+    <Title>Fabricant d'armes</Title>
+  </Item>
+  <Item>
+    <ID>ArmorCrafting</ID>
+    <Name>Fabrication d'armures</Name>
+    <Title>Fabricant d'armures</Title>
+  </Item>
+  <Item>
+    <ID>Gemcutting</ID>
+    <Name>Taille de gemmes</Name>
+    <Title>Tailleur de gemmes</Title>
+  </Item>
+  <Item>
+    <ID>JewelryMaking</ID>
+    <Name>Bijouterie</Name>
+    <Title>Bijoutier</Title>
+  </Item>
+  <Item>
+    <ID>Weaving</ID>
+    <Name>Tissage</Name>
+    <Title>Tisseur</Title>
+  </Item>
+  <Item>
+    <ID>Tailoring</ID>
+    <Name>Couture</Name>
+    <Title>Couturier</Title>
+  </Item>
+  <Item>
+    <ID>Pottery</ID>
+    <Name>Potterie</Name>
+    <Title>Pottier</Title>
+  </Item>
+  <Item>
+    <ID>Leatherworking</ID>
+    <Name>Travail du cuir</Name>
+    <Title>Tanneur</Title>
+  </Item>
+  <Item>
+    <ID>Tinkering</ID>
+    <Name>Recherche</Name>
+    <Title>Chercheur</Title>
+  </Item>
+  <Item>
+    <ID>Machining</ID>
+    <Name>Machinerie</Name>
+    <Title>Machiniste</Title>
+  </Item>
+  <Item>
+    <ID>Engineering</ID>
+    <Name>Ingenierie</Name>
+    <Title>Ingenieur</Title>
+  </Item>
+  <Item>
+    <ID>Mechanic</ID>
+    <Name>Mecanique</Name>
+    <Title>Mecanicien</Title>
+  </Item>
+  <Item>
+    <ID>AnimalHusbandry</ID>
+    <Name>Elevage</Name>
+    <Title>Eleveur</Title>
+  </Item>
+  <Item>
+    <ID>Butchery</ID>
+    <Name>Boucherie</Name>
+    <Title>Boucher</Title>
+  </Item>
+  <Item>
+    <ID>Horticulture</ID>
+    <Name>Horticulture</Name>
+    <Title>Horticulteur</Title>
+  </Item>
+  <Item>
+    <ID>Farming</ID>
+    <Name>Ferme</Name>
+    <Title>Fermier</Title>
+  </Item>
+  <Item>
+    <ID>Cooking</ID>
+    <Name>Cuisne</Name>
+    <Title>Chef</Title>
+  </Item>
+  <Item>
+    <ID>Brewing</ID>
+    <Name>Distillation</Name>
+    <Title>Brasseur</Title>
+  </Item>
+  <Item>
+    <ID>Construction</ID>
+    <Name>Construction</Name>
+    <Title>Constructeur</Title>
+  </Item>
+  <Item>
+    <ID>Hauling</ID>
+    <Name>Transport</Name>
+    <Title>Transporteur</Title>
+  </Item>
+  <Item>
+    <ID>NaturalAttack</ID>
+    <Name>Combat</Name>
+    <Title>Combattant</Title>
+  </Item>
+  <Item>
+    <ID>Brawling</ID>
+    <Name>Bagarre</Name>
+    <Title>Bagarreur</Title>
+  </Item>
+  <Item>
+    <ID>Sword</ID>
+    <Name>Epee</Name>
+    <Title>Epee</Title>
+  </Item>
+  <Item>
+    <ID>Axe</ID>
+    <Name>Hache</Name>
+    <Title>Hache</Title>
+  </Item>
+  <Item>
+    <ID>Hammer</ID>
+    <Name>Masse</Name>
+    <Title>Masse</Title>
+  </Item>
+  <Item>
+    <ID>Dodge</ID>
+    <Name>Esquive</Name>
+    <Title>Esquiveur</Title>
+  </Item>
+  <Item>
+    <ID>Shield</ID>
+    <Name>Bouclier</Name>
+    <Title>Bouclier</Title>
+  </Item>
+  <Item>
+    <ID>Armor</ID>
+    <Name>Armure</Name>
+    <Title>Chevalier</Title>
+  </Item>
+  <Item>
+    <ID>Discipline</ID>
+    <Name>Discipline</Name>
+    <Title>Discipline</Title>
+  </Item>
+  <Item>
+    <ID>Crossbow</ID>
+    <Name>Arbalete</Name>
+    <Title>Arbaletrier</Title>
+  </Item>
+  <Item>
+    <ID>Gun</ID>
+    <Name>Armes a feu</Name>
+    <Title>Armes a feu</Title>
+  </Item>
+  <Item>
+    <ID>Medic</ID>
+    <Name>Medecine</Name>
+    <Title>Medecin</Title>
+  </Item>
+  <Item>
+    <ID>Caretaking</ID>
+    <Name>Caretaking</Name>
+    <Title>Caretaker</Title>
+  </Item>
+  <Item>
+    <ID>Bonecarving</ID>
+    <Name>Sculpture sur os</Name>
+    <Title>Sculpteur sur os</Title>
+  </Item>
+  <Item>
+    <ID>Prospecting</ID>
+    <Name>Prospection</Name>
+    <Title>Prospecteur</Title>
+  </Item>
+</Skills>

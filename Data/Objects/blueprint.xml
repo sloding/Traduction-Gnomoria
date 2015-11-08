@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Blueprints>
+  <!--Item:
+        BlueprintID: Defines ID of blueprint referenced everywhere else
+        Name: Name of blueprint.  Used when announcing discovery
+        Difficulty: Research level required to unlock this blueprint
+  -->
+  <Item>
+    <BlueprintID>Rod</BlueprintID>
+    <Name>rod</Name>
+    <Difficulty>1</Difficulty>
+  </Item>
+  <Item>
+    <BlueprintID>Axle</BlueprintID>
+    <Name>axle</Name>
+    <Difficulty>1</Difficulty>
+  </Item>
+  <Item>
+    <BlueprintID>Gear</BlueprintID>
+    <Name>gear</Name>
+    <Difficulty>1</Difficulty>
+  </Item>
+  <Item>
+    <BlueprintID>Spring</BlueprintID>
+    <Name>spring</Name>
+    <Difficulty>1</Difficulty>
+  </Item>
+  <Item>
+    <BlueprintID>MechanismBase</BlueprintID>
+    <Name>mechanism base</Name>
+    <Difficulty>1</Difficulty>
+  </Item>
+  <Item>
+    <BlueprintID>Gearbox</BlueprintID>
+    <Name>gear box</Name>
+    <Difficulty>1</Difficulty>
+  </Item>
+    
+  <Item>
+    <BlueprintID>Handcrank</BlueprintID>
+    <Name>handcrank</Name>
+    <Difficulty>2</Difficulty>
+  </Item>
+    
+  <Item>
+    <BlueprintID>TrapBase</BlueprintID>
+    <Name>trap base</Name>
+    <Difficulty>3</Difficulty>
+  </Item>
+  <Item>
+    <BlueprintID>SpikeTrap</BlueprintID>
+    <Name>spike trap</Name>
+    <Difficulty>3</Difficulty>
+  </Item>
+  <Item>
+    <BlueprintID>BladeTrap</BlueprintID>
+    <Name>blade trap</Name>
+    <Difficulty>3</Difficulty>
+  </Item>
+  <Item>
+    <BlueprintID>Crossbow</BlueprintID>
+    <Name>crossbow</Name>
+    <Difficulty>3</Difficulty>
+  </Item>
+  <Item>
+    <BlueprintID>CrossbowBolt</BlueprintID>
+    <Name>bolt</Name>
+    <Difficulty>3</Difficulty>
+  </Item>
+  <Item>
+    <BlueprintID>Quiver</BlueprintID>
+    <Name>quiver</Name>
+    <Difficulty>3</Difficulty>
+  </Item>
+    
+  <Item>
+    <BlueprintID>Lever</BlueprintID>
+    <Name>lever</Name>
+    <Difficulty>4</Difficulty>
+  </Item>
+    
+  <Item>
+    <BlueprintID>MechanicalWall</BlueprintID>
+    <Name>mechanical wall</Name>
+    <Difficulty>5</Difficulty>
+  </Item>
+    
+  <Item>
+    <BlueprintID>WindmillBlade</BlueprintID>
+    <Name>windmill blade</Name>
+    <Difficulty>6</Difficulty>
+  </Item>
+  <Item>
+    <BlueprintID>Windmill</BlueprintID>
+    <Name>windmill</Name>
+    <Difficulty>6</Difficulty>
+  </Item>
+    
+  <Item>
+    <BlueprintID>PressurePlate</BlueprintID>
+    <Name>pressure plate</Name>
+    <Difficulty>7</Difficulty>
+  </Item>
+    
+  <Item>
+    <BlueprintID>Hatch</BlueprintID>
+    <Name>hatch</Name>
+    <Difficulty>8</Difficulty>
+  </Item>
+  <Item>
+    <BlueprintID>Blunderbuss</BlueprintID>
+    <Name>blunderbuss</Name>
+    <Difficulty>8</Difficulty>
+  </Item>
+  <Item>
+    <BlueprintID>MusketRound</BlueprintID>
+    <Name>musket round</Name>
+    <Difficulty>8</Difficulty>
+  </Item>
+  <Item>
+    <BlueprintID>AmmoPouch</BlueprintID>
+    <Name>ammo pouch</Name>
+    <Difficulty>8</Difficulty>
+  </Item>
+
+  <Item>
+    <BlueprintID>Pistol</BlueprintID>
+    <Name>flintlock pistol</Name>
+    <Difficulty>9</Difficulty>
+  </Item>
+  <Item>
+    <BlueprintID>Pump</BlueprintID>
+    <Name>pump</Name>
+    <Difficulty>9</Difficulty>
+  </Item>
+
+  <Item>
+    <BlueprintID>Cylinder</BlueprintID>
+    <Name>cylinder</Name>
+    <Difficulty>10</Difficulty>
+  </Item>
+  <Item>
+    <BlueprintID>SteamEngine</BlueprintID>
+    <Name>steam engine</Name>
+    <Difficulty>10</Difficulty>
+  </Item>
+
+  <Item>
+    <BlueprintID>ArtificialArm</BlueprintID>
+    <Name>prosthetic arm</Name>
+    <Difficulty>11</Difficulty>
+  </Item>
+  <Item>
+    <BlueprintID>ArtificialHand</BlueprintID>
+    <Name>prosthetic hand</Name>
+    <Difficulty>11</Difficulty>
+  </Item>
+  <Item>
+    <BlueprintID>ArtificialLeg</BlueprintID>
+    <Name>prosthetic leg</Name>
+    <Difficulty>11</Difficulty>
+  </Item>
+  <Item>
+    <BlueprintID>ArtificialFoot</BlueprintID>
+    <Name>prosthetic foot</Name>
+    <Difficulty>11</Difficulty>
+  </Item>
+
+  <Item>
+    <BlueprintID>Automaton</BlueprintID>
+    <Name>automaton</Name>
+    <Difficulty>12</Difficulty>
+  </Item>
+</Blueprints>

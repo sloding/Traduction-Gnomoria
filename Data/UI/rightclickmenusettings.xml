@@ -1,0 +1,839 @@
+﻿<RightClickMenuSettings>
+	<!--MenuItem: Used to build the right click menu
+      Text: Displayed text
+      ToolTip (optional): Displayed tool tip
+      MenuItem (optional): When set the Action is ignored.  Creates a child menu that extends from this MenuItem.  Recursively defined
+      Action (optional): Defines action when this MenuItem is selected.  All available options are used below
+  -->
+  <!--Terrain-->
+	<MenuItem>
+	  <Text>Terrain</Text>
+	  <MenuItem>
+		<Text>Miner</Text>         
+		  <MenuItem>
+			<Text>Mur</Text>
+			<ToolTip>Detruire mur</ToolTip>
+			<Action>
+			  <Type>Mine</Type>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Escaliers montants</Text>
+			<ToolTip>Mine le mur en ecaliers vers le haut</ToolTip>
+			<Action>
+			  <Type>MineStairsUp</Type>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Rampe montante</Text>
+			<ToolTip>Mine le mur en rampe vers le haut</ToolTip>
+			<Action>
+			  <Type>MineRampUp</Type>
+			</Action>
+		  </MenuItem>          
+	  </MenuItem>
+	  <MenuItem>
+		<Text>Creuser</Text>
+		  <MenuItem>
+			<Text>Trou</Text>
+			<ToolTip>Creuse le sol et le bloc dessous</ToolTip>
+			<Action>
+			  <Type>DigHole</Type>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Escaliers descendants</Text>
+			<ToolTip>Creuse le sol et le bloc dessous en escaliers</ToolTip>
+			<Action>
+			  <Type>DigStairsDown</Type>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Rampe descendante</Text>
+			<ToolTip>Creuse le sol et le bloc dessous en rampe</ToolTip>
+			<Action>
+			  <Type>DigRampDown</Type>
+			</Action>
+		  </MenuItem>
+	  </MenuItem>
+	  <MenuItem>
+		<Text>Enlever sol</Text>
+		<ToolTip>Creuse le sol sans toucher au bloc dessous</ToolTip>
+		<Action>
+		  <Type>RemoveFloor</Type>
+		</Action>
+	  </MenuItem>
+	  <MenuItem>
+		<Text>Enlever rampe</Text>
+		<ToolTip>Enleve une rampe</ToolTip>
+		<Action>
+		  <Type>RemoveRamp</Type>
+		</Action>
+	  </MenuItem>
+	  <MenuItem>
+		<Text>Remplacer mur</Text>
+		<ToolTip>Remplace un mur existant par un autre type</ToolTip>
+		<Action>
+		  <Type>ReplaceWall</Type>
+		</Action>
+	  </MenuItem>
+	  <MenuItem>
+		<Text>Remplacer sol</Text>
+		<ToolTip>Remplace un sol existant par un autre type</ToolTip>
+		<Action>
+		  <Type>ReplaceFloor</Type>
+		</Action>
+	  </MenuItem>
+	  <MenuItem>
+		<Text>Remplir trou</Text>
+		<ToolTip>Construit un mur par le dessus</ToolTip>
+		<Action>
+		  <Type>FillHole</Type>
+		</Action>
+	  </MenuItem>
+	</MenuItem>
+	<!--Agriculture-->
+	<MenuItem>
+	  <Text>Agriculture</Text>
+	  <MenuItem>
+		<Text>Ferme</Text>
+		<ToolTip>Pour faire pousser des cultures</ToolTip>
+		<Action>
+		  <Type>CreateFarm</Type>
+		</Action>
+	  </MenuItem>
+	  <MenuItem>
+		<Text>Ferme souterraine</Text>
+		<ToolTip>Pour faire pousser des cultures souterraines</ToolTip>
+		<Action>
+		  <Type>CreateUndergroundFarm</Type>
+		</Action>
+	  </MenuItem>
+	  <MenuItem>
+		<Text>Paturage</Text>
+		<ToolTip>Pour elever des animaux</ToolTip>
+		<Action>
+		  <Type>CreatePasture</Type>
+		</Action>
+	  </MenuItem>
+	  <MenuItem>
+		<Text>Sylviculture</Text>
+		<ToolTip>Pour faire pousser des arbres puis les bucheronner</ToolTip>
+		<Action>
+		  <Type>CreateGrove</Type>
+		</Action>
+	  </MenuItem>
+	  <MenuItem>
+		<Text>Planter des arbres</Text>
+		<ToolTip>Pour planter des arbres</ToolTip>
+		<Action>
+		  <Type>PlantTree</Type>
+		</Action>
+	  </MenuItem>
+	  <MenuItem>
+		<Text>Bucheronner des arbres</Text>
+		<ToolTip>Coupe les arbres pour en faire des rondins</ToolTip>
+		<Action>
+		  <Type>FellTree</Type>
+		</Action>
+	  </MenuItem>
+	  <MenuItem>
+		<Text>Bouturer</Text>
+		<ToolTip>Recolte une bouture sur un arbre</ToolTip>
+		<Action>
+		  <Type>CutClipping</Type>
+		</Action>
+	  </MenuItem>
+	  <MenuItem>
+		<Text>Moissonner</Text>
+		<ToolTip>Moissone la nourriture</ToolTip>
+		<Action>
+		  <Type>Forage</Type>
+		</Action>
+	  </MenuItem>
+	</MenuItem>
+	<!--Build-->
+	<MenuItem>
+	  <Text>Construction</Text>
+	  <!--Workshop-->
+	  <MenuItem>
+		<Text>Ateliers</Text>
+		<MenuItem>
+		  <Text>Atelier basique</Text>
+		  <Action>
+			<Type>BuildWorkshop</Type>
+			<ID>CrudeWorkbench</ID>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Bois</Text>
+		  <MenuItem>
+			<Text>Scierie</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Woodcutter</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Atelier de menuiserie</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Carpenter</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Ebenisterie</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Woodcarver</ID>
+			</Action>
+		  </MenuItem>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Pierre</Text>
+		  <MenuItem>
+			<Text>Tailleur de blocs</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Stonecutter</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Tailleur de pierre</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Stonemason</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Sculpteur de pierres</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Stonecarver</ID>
+			</Action>
+		  </MenuItem>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Tissu</Text>
+		  <MenuItem>
+			<Text>Atelier de tissage</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Loom</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Atelier de couture</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Tailor</ID>
+			</Action>
+		  </MenuItem>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Nourriture/Boissons</Text>
+		  <MenuItem>
+			<Text>Boucherie</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Butcher</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Cuisine</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Kitchen</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Distillerie</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Distillery</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Puit</Text>
+			<Action>
+			  <Type>BuildWell</Type>
+			</Action>
+		  </MenuItem>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Gemmes</Text>
+		  <MenuItem>
+			<Text>Tailleur de gemmes</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Gemcutter</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Bijoutier</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Jeweler</ID>
+			</Action>
+		  </MenuItem>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Metaux</Text>
+		  <MenuItem>
+			<Text>Charbonnerie</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Furnace</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Fonderie de minerai</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Forge</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Fonderie d'objets</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Smelter</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Forge</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Blacksmith</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Atelier de sculpteur de metaux</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Metalworker</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Frabicant d'armes</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Weaponsmith</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Frabicant d'armures</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Armorer</ID>
+			</Action>
+		  </MenuItem>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Mecanismes</Text>
+		  <MenuItem>
+			<Text>Banc de recherche</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>TinkerBench</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Atelier de mecanique</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>MachineShop</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Atelier d'ingenieur</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Engineer</ID>
+			</Action>
+		  </MenuItem>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Militaire</Text>
+		  <MenuItem>
+			<Text>Camps d'entrainement</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>TrainingGrounds</ID>
+			</Action>
+		  </MenuItem>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Divers</Text>
+		  <MenuItem>
+			<Text>Four a potteries</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Kiln</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Atelier de tanneur</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Leatherworker</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Marche</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>MarketStall</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Atelier de sculpteur d'os</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Bonecarver</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Atelier de prospection</Text>
+			<Action>
+			  <Type>BuildWorkshop</Type>
+			  <ID>Prospector</ID>
+			</Action>
+		  </MenuItem>
+		</MenuItem>
+	  </MenuItem>
+	  <!--Mechanism-->
+	  <MenuItem>
+		<Text>Mecanisme</Text>
+		<MenuItem>
+		  <Text>Lien</Text>
+		  <MenuItem>
+			<Text>Axe</Text>
+			<Action>
+			  <Type>BuildMechanism</Type>
+			  <ID>Axle</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Axe Vertical</Text>
+			<Action>
+			  <Type>BuildMechanism</Type>
+			  <ID>VerticalAxle</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>GearBox</Text>
+			<Action>
+			  <Type>BuildMechanism</Type>
+			  <ID>GearBox</ID>
+			</Action>
+		  </MenuItem>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Interrupteur</Text>
+		  <MenuItem>
+			<Text>Levier</Text>
+			<Action>
+			  <Type>BuildMechanism</Type>
+			  <ID>Lever</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Plaque de pression</Text>
+			<Action>
+			  <Type>BuildMechanism</Type>
+			  <ID>PressurePlate</ID>
+			</Action>
+		  </MenuItem>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Dispositif</Text>
+		  <MenuItem>
+			<Text>Mur mecanique</Text>
+			<Action>
+			  <Type>BuildMechanism</Type>
+			  <ID>MechanicalWall</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Trappe</Text>
+			<Action>
+			  <Type>BuildMechanism</Type>
+			  <ID>Hatch</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Pompe</Text>
+			<Action>
+			  <Type>BuildMechanism</Type>
+			  <ID>Pump</ID>
+			</Action>
+		  </MenuItem>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Piege auto-alimente</Text>
+		  <MenuItem>
+			<Text>Piege a pieux</Text>
+			<Action>
+			  <Type>BuildMechanism</Type>
+			  <ID>SpikeTrap</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Piege a lames</Text>
+			<Action>
+			  <Type>BuildMechanism</Type>
+			  <ID>BladeTrap</ID>
+			</Action>
+		  </MenuItem>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Source d'energie</Text>
+		  <MenuItem>
+			<Text>manivelle</Text>
+			<Action>
+			  <Type>BuildMechanism</Type>
+			  <ID>Handcrank</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Moulin a vent</Text>
+			<Action>
+			  <Type>BuildMechanism</Type>
+			  <ID>WindMill</ID>
+			</Action>
+		  </MenuItem>
+		  <MenuItem>
+			<Text>Moteur a vapeur</Text>
+			<Action>
+			  <Type>BuildMechanism</Type>
+			  <ID>SteamEngine</ID>
+			</Action>
+		  </MenuItem>
+		</MenuItem>
+	  </MenuItem>
+	  <!--Furniture-->
+	  <MenuItem>
+		<Text>Objets</Text>
+		<MenuItem>
+		  <Text>Porte</Text>
+		  <Action>
+			<Type>BuildDoor</Type>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Lit de paille</Text>
+		  <Action>
+			<Type>BuildConstruction</Type>
+			<ID>StrawBed</ID>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Lit</Text>
+		  <Action>
+			<Type>BuildConstruction</Type>
+			<ID>Bed</ID>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Lit a baldaquin</Text>
+		  <Action>
+			<Type>BuildConstruction</Type>
+			<ID>FancyBed</ID>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>table</Text>
+		  <Action>
+			<Type>BuildConstruction</Type>
+			<ID>Table</ID>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Chaise</Text>
+		  <Action>
+			<Type>BuildConstruction</Type>
+			<ID>Chair</ID>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Commode</Text>
+		  <Action>
+			<Type>BuildConstruction</Type>
+			<ID>Dresser</ID>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Penderie</Text>
+		  <Action>
+			<Type>BuildConstruction</Type>
+			<ID>Cabinet</ID>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Statue</Text>
+		  <Action>
+			<Type>BuildConstruction</Type>
+			<ID>Statue</ID>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Torche</Text>
+		  <Action>
+			<Type>BuildConstruction</Type>
+			<ID>Torch</ID>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Torche murale</Text>
+		  <Action>
+			<Type>BuildConstruction</Type>
+			<ID>WallTorch</ID>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Pilier</Text>
+		  <Action>
+			<Type>BuildConstruction</Type>
+			<ID>Pillar</ID>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Cloture rails</Text>
+		  <Action>
+			<Type>BuildConstruction</Type>
+			<ID>PostAndRailFence</ID>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Cloture piquets</Text>
+		  <Action>
+			<Type>BuildConstruction</Type>
+			<ID>PicketFence</ID>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Mangeoire</Text>
+		  <Action>
+			<Type>BuildTrough</Type>
+			<ID>Trough</ID>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Crane sur pique</Text>
+		  <Action>
+			<Type>BuildConstruction</Type>
+			<ID>SkullPike</ID>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Cloche d'alarme</Text>
+		  <Action>
+			<Type>BuildConstruction</Type>
+			<ID>AlarmBell</ID>
+		  </Action>
+		</MenuItem>
+	  </MenuItem>
+	  <!--Storage-->
+	  <MenuItem>
+		<Text>Stockage</Text>
+		<MenuItem>
+		  <Text>Caisse</Text>
+		  <Action>
+			<Type>BuildContainer</Type>
+			<ID>Crate</ID>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Tonneau</Text>
+		  <Action>
+			<Type>BuildContainer</Type>
+			<ID>Barrel</ID>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Sac</Text>
+		  <Action>
+			<Type>BuildContainer</Type>
+			<ID>Bag</ID>
+		  </Action>
+		</MenuItem>
+	  </MenuItem>
+	  <!--Terrain-->
+	  <MenuItem>
+		<Text>Terrain</Text>
+		<MenuItem>
+		  <Text>Mur</Text>
+		  <ToolTip>Construit un mur</ToolTip>
+		  <Action>
+			<Type>BuildWall</Type>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Sol</Text>
+		  <ToolTip>Construit un sol</ToolTip>
+		  <Action>
+			<Type>BuildFloor</Type>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Escaliers montants</Text>
+		  <ToolTip>Construit des escaliers vers le haut</ToolTip>
+		  <Action>
+			<Type>BuildStairsUp</Type>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Escaliers descendants</Text>
+		  <ToolTip>Construit des escaliers vers le bas</ToolTip>
+		  <Action>
+			<Type>BuildStairsDown</Type>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Ramp montante</Text>
+		  <ToolTip>Construit une rampe montante</ToolTip>
+		  <Action>
+			<Type>BuildInclineUp</Type>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Ramp descendante</Text>
+		  <ToolTip>Construit une rampe descendante</ToolTip>
+		  <Action>
+			<Type>BuildInclineDown</Type>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Mine une rampe montante</Text>
+		  <ToolTip>Mine le mur en rampe montante</ToolTip>
+		  <Action>
+			<Type>BuildRampUp</Type>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Mine une rampe descendante</Text>
+		  <ToolTip>Mine le mur en rampe descendante</ToolTip>
+		  <Action>
+			<Type>BuildRampDown</Type>
+		  </Action>
+		</MenuItem>
+		<MenuItem>
+		  <Text>Echaffaudage</Text>
+		  <ToolTip>Construit un echaffaudage</ToolTip>
+		  <Action>
+			<Type>BuildScaffolding</Type>
+		  </Action>
+		</MenuItem>
+	  </MenuItem>
+	</MenuItem>
+	<!--Designate Area-->
+	<MenuItem>
+	  <Text>Designer zone</Text>
+	  <MenuItem>
+		<Text>Stockage</Text>
+		<ToolTip>Stocke les objets</ToolTip>
+		<Action>
+		  <Type>CreateStockpile</Type>
+		</Action>
+	  </MenuItem>
+	  <MenuItem>
+		<Text>Ferme</Text>
+		<ToolTip>Pour faire pousser des cultures</ToolTip>
+		<Action>
+		  <Type>CreateFarm</Type>
+		</Action>
+	  </MenuItem>
+	  <MenuItem>
+		<Text>Ferme souterraine</Text>
+		<ToolTip>Pour faire pousser des cultures souterraines</ToolTip>
+		<Action>
+		  <Type>CreateUndergroundFarm</Type>
+		</Action>
+	  </MenuItem>
+	  <MenuItem>
+		<Text>Paturage</Text>
+		<ToolTip>Pour elever des animaux</ToolTip>
+		<Action>
+		  <Type>CreatePasture</Type>
+		</Action>
+	  </MenuItem>
+	  <MenuItem>
+		<Text>Sylviculture</Text>
+		<ToolTip>Pour faire pousser des arbres puis les bucheronner</ToolTip>
+		<Action>
+		  <Type>CreateGrove</Type>
+		</Action>
+	  </MenuItem>
+	  <MenuItem>
+		<Text>Quartiers personnels</Text>
+		<ToolTip>Fournit un meilleur sommeil et augmente le bonheur</ToolTip>
+		<Action>
+		  <Type>CreatePersonalQuarters</Type>
+		</Action>
+	  </MenuItem>
+	  <MenuItem>
+		<Text>Dortoir</Text>
+		<ToolTip>Zone commune de couchage</ToolTip>
+		<Action>
+		  <Type>CreateDormitory</Type>
+		</Action>
+	  </MenuItem>
+	  <MenuItem>
+		<Text>Salle a manger</Text>
+		<ToolTip>Cree une salle a manger ou le grand hall</ToolTip>
+		<Action>
+		  <Type>CreateDiningRoom</Type>
+		</Action>
+	  </MenuItem>
+	  <MenuItem>
+		<Text>Hopital</Text>
+		<ToolTip>Cree une zone d'hopital</ToolTip>
+		<Action>
+		  <Type>CreateHospital</Type>
+		</Action>
+	  </MenuItem>
+	  <MenuItem>
+		<Text>Zone gardee</Text>
+		<ToolTip>Designe une zone ou les gardes se rendent</ToolTip>
+		<Action>
+		  <Type>CreateGuardArea</Type>
+		</Action>
+	  </MenuItem>
+	  <MenuItem>
+		<Text>Patrouille</Text>
+		<ToolTip>Designe les points de passage d'une patrouille</ToolTip>
+		<Action>
+		  <Type>CreatePatrolRoute</Type>
+		</Action>
+	  </MenuItem>
+	</MenuItem>
+	<MenuItem>
+	  <Text>Nettoyer sol</Text>
+	  <ToolTip>Range les items de ce sol si possible</ToolTip>
+	  <Action>
+		<Type>CleanFloor</Type>
+	  </Action>
+	</MenuItem>
+	<MenuItem>
+	  <Text>Demonter</Text>
+	  <ToolTip>Deconstruit</ToolTip>
+	  <Action>
+		<Type>Deconstruct</Type>
+	  </Action>
+	</MenuItem>
+	<MenuItem>
+	  <Text>Effacer zone designee</Text>
+	  <ToolTip>Enleve une zone designee</ToolTip>
+	  <Action>
+		<Type>RemoveDesignation</Type>
+	  </Action>
+	</MenuItem>
+	<MenuItem>
+	  <Text>Annuler tache</Text>
+	  <ToolTip>Annule la tache</ToolTip>
+	  <Action>
+		<Type>CancelJob</Type>
+	  </Action>
+	</MenuItem>  
+</RightClickMenuSettings>
