@@ -44,7 +44,7 @@
         Thickness (optional): Default is 1. Multiplier for hitpoints defined by material.  Only valid if Destructible is true
         BuildAdjacent (optional): Default is false. Determines if gnome must stand adjacent to build job when constructing
         RequiresFloor (optional): Default is true.  Allows construction to be built in the air if false
-        RequiresSupportWall (optional): Default is false. Requires neighboring wall if true.  ex When building a WallTorch it's only valid if there is a wall corresponding to the orientation
+        RequiressupportWall (optional): Default is false. Requires neighboring wall if true.  ex When building a WallTorch it's only valid if there is a wall corresponding to the orientation
         BlueprintID (optional): Default none.  Minimum research level before this construction can be built
         Component: Components required to build this construciton. Supports an arbitrary number.
           ItemID: ID of item required

@@ -91,6 +91,13 @@
 		  <Type>FillHole</Type>
 		</Action>
 	  </MenuItem>
+	  <MenuItem>
+      <Text>Cacher</Text>
+      <ToolTip>Set terrain to Hidden</ToolTip>
+      <Action>
+        <Type>Hide</Type>
+      </Action>
+    </MenuItem>
 	</MenuItem>
 	<!--Agriculture-->
 	<MenuItem>
@@ -698,21 +705,21 @@
 		  </Action>
 		</MenuItem>
 		<MenuItem>
-		  <Text>Ramp descendante</Text>
+		  <Text>Romp descendante</Text>
 		  <ToolTip>Construit une rampe descendante</ToolTip>
 		  <Action>
 			<Type>BuildInclineDown</Type>
 		  </Action>
 		</MenuItem>
 		<MenuItem>
-		  <Text>Mine une rampe montante</Text>
+		  <Text>Rampe montante</Text>
 		  <ToolTip>Mine le mur en rampe montante</ToolTip>
 		  <Action>
 			<Type>BuildRampUp</Type>
 		  </Action>
 		</MenuItem>
 		<MenuItem>
-		  <Text>Mine une rampe descendante</Text>
+		  <Text>Rampe descendante</Text>
 		  <ToolTip>Mine le mur en rampe descendante</ToolTip>
 		  <Action>
 			<Type>BuildRampDown</Type>
@@ -808,6 +815,30 @@
 		</Action>
 	  </MenuItem>
 	</MenuItem>
+     <MenuItem>
+    <Text>Travail</Text>
+    <MenuItem>
+      <Text>Suspendre</Text>
+      <ToolTip>Suspendre</ToolTip>
+      <Action>
+        <Type>SuspendJob</Type>
+      </Action>
+    </MenuItem>
+    <MenuItem>
+      <Text>Reprendre</Text>
+      <ToolTip>Reprendre</ToolTip>
+      <Action>
+        <Type>ResumeJob</Type>
+      </Action>
+    </MenuItem>
+    <MenuItem>
+      <Text>Annuler</Text>
+      <ToolTip>Annuler</ToolTip>
+      <Action>
+        <Type>CancelJob</Type>
+      </Action>
+    </MenuItem>
+  </MenuItem>
 	<MenuItem>
 	  <Text>Nettoyer sol</Text>
 	  <ToolTip>Range les items de ce sol si possible</ToolTip>
@@ -829,11 +860,4 @@
 		<Type>RemoveDesignation</Type>
 	  </Action>
 	</MenuItem>
-	<MenuItem>
-	  <Text>Annuler tache</Text>
-	  <ToolTip>Annule la tache</ToolTip>
-	  <Action>
-		<Type>CancelJob</Type>
-	  </Action>
-	</MenuItem>  
 </RightClickMenuSettings>

@@ -239,7 +239,7 @@
   </Item>
   <Item>
     <ID>Egg</ID>
-    <Name>Oeuf</Name>
+    <Name>euf</Name>
     <Description>Un [ITEM_NAME] cru.</Description>
     <ObtainDescription>Pondu par une emeu femelle</ObtainDescription>      
     <Effect>
@@ -270,7 +270,7 @@
   <Item>
     <ID>Meat</ID>
     <Name>viande</Name>
-    <Description>[ITEM_NAME] crue.</Description>
+    <Description>[ITEM_NAME] Crue.</Description>
     <ObtainDescription>Se recupere sur les animaux a la boucherie</ObtainDescription>
     <Effect>
       <Effect>Food</Effect>
@@ -312,7 +312,7 @@
     <ID>Milk</ID>
     <Name>lait</Name>
     <Description>[ITEM_NAME].</Description>
-    <ObtainDescription>Se recolte sur un yak femelle</ObtainDescription>
+    <ObtainDescription>Se recolte sur une yak femelle</ObtainDescription>
     <Effect>
       <Effect>Drink</Effect>
       <Amount>25</Amount>
@@ -557,8 +557,8 @@
   <Item>
     <ID>Axle</ID>
     <Name>axe</Name>
-    <Description>S'utilise pour assembler les mecanisme en ligne droites</Description>
-    <ObtainDescription>Crafted in an Engineer's workshop</ObtainDescription>
+    <Description>[AN_ITEM_NAME]. S'utilise pour assembler les mecanisme en ligne droites</Description>
+    <ObtainDescription>Fabrique dans l'atelier d'un ingenieur</ObtainDescription>
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
     <SpriteID>
@@ -568,8 +568,8 @@
   <Item>
     <ID>Gearbox</ID>
     <Name>boite d'engrenages</Name>
-    <Description>S'utilise pour connecter des mecanismes dans differents angles</Description>
-    <ObtainDescription>Crafted in an Engineer's workshop</ObtainDescription>
+    <Description>[AN_ITEM_NAME]. S'utilise pour connecter des mecanismes dans differents angles</Description>
+    <ObtainDescription>Fabrique dans l'atelier d'un ingenieur</ObtainDescription>
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
     <SpriteID>
@@ -583,8 +583,8 @@
   <Item>
     <ID>Handcrank</ID>
     <Name>manivelle</Name>
-    <Description>Fournit de l'energie lorque qu'elle est actionnee</Description>
-    <ObtainDescription>Crafted in an Engineer's workshop</ObtainDescription>
+    <Description>[AN_ITEM_NAME]. Fournit de l'energie lorque qu'elle est actionnee</Description>
+    <ObtainDescription>Fabrique dans l'atelier d'un ingenieur</ObtainDescription>
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
     <SpriteID>
@@ -594,8 +594,8 @@
   <Item>
     <ID>Lever</ID>
     <Name>levier</Name>
-    <Description>pour activer manuellement une connexion</Description>
-    <ObtainDescription>Crafted in an Engineer's workshop</ObtainDescription>
+    <Description>[AN_ITEM_NAME]. Pour activer manuellement une connexion</Description>
+    <ObtainDescription>Fabrique dans l'atelier d'un ingenieur</ObtainDescription>
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
     <SpriteID>
@@ -609,8 +609,8 @@
   <Item>
     <ID>PressurePlate</ID>
     <Name>plaque de pression</Name>
-    <Description>active la connexion quand une pression s'exerce dessus</Description>
-    <ObtainDescription>Crafted in an Engineer's workshop</ObtainDescription>
+    <Description>[AN_ITEM_NAME]. Active la connexion quand une pression s'exerce dessus</Description>
+    <ObtainDescription>Fabrique dans l'atelier d'un ingenieur</ObtainDescription>
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
     <SpriteID>
@@ -621,7 +621,7 @@
     <ID>MechanicalWall</ID>
     <Name>mur mecanique</Name>
     <Description>[AN_ITEM_NAME].  Converts to a wall when power is provided.</Description>
-    <ObtainDescription>Crafted in an Engineer's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans l'atelier d'un ingenieur</ObtainDescription>
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
     <SpriteID>
@@ -632,7 +632,7 @@
     <ID>Hatch</ID>
     <Name>trappe</Name>
     <Description>[AN_ITEM_NAME].  Converts to a floor when power is provided.</Description>
-    <ObtainDescription>Crafted in an Engineer's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans l'atelier d'un ingenieur</ObtainDescription>
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
     <SpriteID>
@@ -647,7 +647,7 @@
     <ID>SpikeTrap</ID>
     <Name>piege a pieux</Name>
     <Description>un piege qu'il faut re-armer lorsqu'il a ete declenche</Description>
-    <ObtainDescription>Crafted in an Engineer's workshop.</ObtainDescription>
+    <ObtainDescription>Fabrique dans l'atelier d'un ingenieur</ObtainDescription>
     <WeaponSize>10</WeaponSize>
     <SpriteID>
       <SpriteID>SpikeTrapItem</SpriteID>
@@ -661,7 +661,7 @@
     <ID>BladeTrap</ID>
     <Name>piege a lames</Name>
     <Description>un piege qu'il faut re-armer lorsqu'il a ete declenche</Description>
-    <ObtainDescription>Crafted in an Engineer's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans l'atelier d'un ingenieur</ObtainDescription>
     <WeaponSize>10</WeaponSize>
     <SpriteID>
       <SpriteID>BladeTrapItem</SpriteID>
@@ -687,7 +687,7 @@
   <Item>
     <ID>Crate</ID>
     <Name>caisse</Name>
-    <Description>Une [AN_ITEM_NAME], utilisee pour stocker differents objets.</Description>
+    <Description>Une [AN_ITEM_NAME], Utilisee pour stocker differents objets.</Description>
     <Effect>
       <Effect>Storage</Effect>
       <Amount>32</Amount>
@@ -701,8 +701,8 @@
   <Item>
     <ID>Barrel</ID>
     <Name>tonneau</Name>
-    <Description>Un [AN_ITEM_NAME], s'utilise pour stocker les boissons.</Description>
-    <ObtainDescription>Crafted in a Carpenter's workshop</ObtainDescription>
+    <Description>Un [AN_ITEM_NAME], S'utilise pour stocker les boissons.</Description>
+    <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
     <Effect>
       <Effect>Storage</Effect>
       <Amount>64</Amount>
@@ -716,7 +716,7 @@
   <Item>
     <ID>Bag</ID>
     <Name>sac</Name>
-    <Description>Un [AN_ITEM_NAME], s'utilise pour stocker differents objets.</Description>
+    <Description>Un [AN_ITEM_NAME], S'utilise pour stocker differents objets.</Description>
     <Effect>
       <Effect>Storage</Effect>
       <Amount>32</Amount>
@@ -753,7 +753,7 @@
   <Item>
     <ID>Table</ID>
     <Name>table</Name>
-    <ObtainDescription>Crafted in a Carpenter's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
     
     <Value>5</Value>
     <WeaponSize>500</WeaponSize>
@@ -776,7 +776,7 @@
   <Item>
     <ID>Chair</ID>
     <Name>chaise</Name>
-    <ObtainDescription>Crafted at a Crude Workbench or a Carpenter's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique a la Table de travail brut ou l'atelier d'un charpentier</ObtainDescription>
     
     <Value>5</Value>
     <WeaponSize>200</WeaponSize>
@@ -799,7 +799,7 @@
   <Item>
     <ID>Bed</ID>
     <Name>lit</Name>
-    <ObtainDescription>Crafted in a Carpenter's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
     
     <Value>5</Value>
     <WeaponSize>2000</WeaponSize>
@@ -814,7 +814,7 @@
   <Item>
     <ID>FancyBed</ID>
     <Name>lit a baldaquin</Name>
-    <ObtainDescription>Crafted in a Carpenter's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
     
     <Value>5</Value>
     <WeaponSize>2000</WeaponSize>
@@ -1805,7 +1805,7 @@
   <Item>
     <ID>Needle</ID>
     <Name>aiguille en os</Name>
-    <ObtainDescription>Crafted in a Bonecarver's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de Tailler d'os</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>0</WeaponSize>
@@ -1816,7 +1816,7 @@
   <Item>
     <ID>Sawblade</ID>
     <Name>lame de scie</Name>
-    <ObtainDescription>Crafted in a Stonemason's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de tailleur de pierre</ObtainDescription>
     
     <WeaponSize>10</WeaponSize>
     <SpriteID>
@@ -1826,7 +1826,7 @@
   <Item>
     <ID>Hearth</ID>
     <Name>foyer de four</Name>
-    <ObtainDescription>Crafted in a Stonemason's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de tailleur de pierre</ObtainDescription>
     
     <WeaponSize>1000</WeaponSize>
     <SpriteID>
@@ -1836,7 +1836,7 @@
   <Item>
     <ID>Mold</ID>
     <Name>moule</Name>
-    <ObtainDescription>Crafted in a Stonemason's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de tailleur de pierre</ObtainDescription>
     
     <WeaponSize>1000</WeaponSize>
     <SpriteID>
@@ -1846,7 +1846,7 @@
   <Item>
     <ID>Furnace</ID>
     <Name>fourneau</Name>
-    <ObtainDescription>Crafted in a Stonemason's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de tailleur de pierre</ObtainDescription>
     
     <WeaponSize>1000</WeaponSize>
     <SpriteID>
@@ -1856,7 +1856,7 @@
   <Item>
     <ID>Bellows</ID>
     <Name>soufflet</Name>
-    <ObtainDescription>Crafted in a Carpenter's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
     
     <WeaponSize>10</WeaponSize>
     <SpriteID>
@@ -1870,7 +1870,7 @@
   <Item>
     <ID>Anvil</ID>
     <Name>enclume</Name>
-    <ObtainDescription>Crafted in a Forge</ObtainDescription>
+    <ObtainDescription>Fabrique dans une Forge</ObtainDescription>
     
     <WeaponSize>100</WeaponSize>
     <SpriteID>
@@ -1880,7 +1880,7 @@
   <Item>
     <ID>CuttingWheel</ID>
     <Name>roue de coupe</Name>
-    <ObtainDescription>Crafted in a Blacksmith's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de forgeron</ObtainDescription>
     
     <WeaponSize>10</WeaponSize>
     <SpriteID>
@@ -1890,7 +1890,7 @@
   <Item>
     <ID>File</ID>
     <Name>lime</Name>
-    <ObtainDescription>Crafted in a Blacksmith's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de forgeron</ObtainDescription>
     
     <WeaponSize>10</WeaponSize>
     <SpriteID>
@@ -1900,7 +1900,7 @@
   <Item>
     <ID>BallPeenHammer</ID>
     <Name>ball-peen hammer</Name>
-    <ObtainDescription>Crafted in a Blacksmith's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de forgeron</ObtainDescription>
     
     <WeaponSize>50</WeaponSize>
     <CombatRatingModifier>1</CombatRatingModifier>
@@ -1955,7 +1955,7 @@
   <Item>
     <ID>Haft</ID>
     <Name>manche</Name>
-    <ObtainDescription>Crafted in a Carpenter's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -1977,7 +1977,7 @@
   <Item>
     <ID>Mattress</ID>
     <Name>matelas</Name>
-    <ObtainDescription>Crafted at a Tailor</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de Tailleur</ObtainDescription>
     
     <WeaponSize>10</WeaponSize>
     <SpriteID>
@@ -1987,7 +1987,7 @@
   <Item>
     <ID>BedFrame</ID>
     <Name>armature de lit</Name>
-    <ObtainDescription>Crafted in a Carpenter's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
     
     <WeaponSize>2000</WeaponSize>
     <SpriteID>
@@ -1997,7 +1997,7 @@
   <Item>
     <ID>FancyBedFrame</ID>
     <Name>armature de lit a baldaquin</Name>
-    <ObtainDescription>Crafted in a Carpenter's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
     
     <WeaponSize>2000</WeaponSize>
     <SpriteID>
@@ -2038,7 +2038,7 @@
   <Item>
     <ID>String</ID>
     <Name>ficelle</Name>
-    <ObtainDescription>Crafted at a Tailor</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de Tailleur</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>0</WeaponSize>
@@ -2049,7 +2049,7 @@
   <Item>
     <ID>Padding</ID>
     <Name>rembourrage</Name>
-    <ObtainDescription>Crafted at a Tailor</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de Tailleur</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>0</WeaponSize>
@@ -2060,7 +2060,7 @@
   <Item>
     <ID>PickaxeHead</ID>
     <Name>tete de pioche</Name>
-    <ObtainDescription>Crafted in a Blacksmith's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de forgeron</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2071,7 +2071,7 @@
   <Item>
     <ID>FellingAxeHead</ID>
     <Name>tete de hache de bucheron</Name>
-    <ObtainDescription>Crafted aint a Blacksmith's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de forgeron</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2170,7 +2170,7 @@
   <Item>
     <ID>LeatherStrap</ID>
     <Name>sangle en cuir</Name>
-    <ObtainDescription>Crafted in a Leatherworker's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de Travail du cuir</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>0</WeaponSize>
@@ -2181,7 +2181,7 @@
   <Item>
     <ID>LeatherArmorPanel</ID>
     <Name>Panneau de cuir</Name>
-    <ObtainDescription>Crafted in a Leatherworker's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de Travail du cuir</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2192,7 +2192,7 @@
   <Item>
     <ID>ArmorPlate</ID>
     <Name>blindage</Name>
-    <ObtainDescription>Crafted in an Armorer's workshop</ObtainDescription>
+    <ObtainDescription>CFabrique dans un atelier d'armurier</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>20</WeaponSize>
@@ -2225,7 +2225,7 @@
   <Item>
     <ID>BlunderbussStock</ID>
     <Name>corps de fusil a silex</Name>
-    <ObtainDescription>Crafted in a Carpenter's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2258,7 +2258,7 @@
   <Item>
     <ID>CrossbowStock</ID>
     <Name>corps d'arbalete</Name>
-    <ObtainDescription>Crafted in a Carpenter's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2269,7 +2269,7 @@
   <Item>
     <ID>TrapBase</ID>
     <Name>trap base</Name>
-    <ObtainDescription>Crafted in an Engineer's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans l'atelier d'un ingenieur</ObtainDescription>
     
     <Value>3</Value>
     <WeaponSize>10</WeaponSize>
@@ -2295,7 +2295,7 @@
   <Item>
     <ID>MechanismBase</ID>
     <Name>mechanism base</Name>
-    <ObtainDescription>Crafted in an Engineer's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans l'atelier d'un ingenieur</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2310,7 +2310,7 @@
   <Item>
     <ID>WindmillBlade</ID>
     <Name>windmill blade</Name>
-    <ObtainDescription>Crafted in an Engineer's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans l'atelier d'un ingenieur</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2322,7 +2322,7 @@
   <Item>
     <ID>Cylinder</ID>
     <Name>cylindre</Name>
-    <ObtainDescription>Crafted in an Engineer's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans l'atelier d'un ingenieur</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2333,7 +2333,7 @@
   <Item>
     <ID>TrainingDummy</ID>
     <Name>mannequin d'entrainement</Name>
-    <ObtainDescription>Crafted in a Carpenter's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
     
     <WeaponSize>50</WeaponSize>
     <SpriteID>
@@ -2343,7 +2343,7 @@
   <Item>
     <ID>Dresser</ID>
     <Name>commode</Name>
-    <ObtainDescription>Crafted in a Carpenter's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
     
     <Value>10</Value>
     <WeaponSize>200</WeaponSize>
@@ -2354,7 +2354,7 @@
   <Item>
     <ID>Cabinet</ID>
     <Name>penderie</Name>
-    <ObtainDescription>Crafted in a Carpenter's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
     
     <Value>10</Value>
     <WeaponSize>200</WeaponSize>
@@ -3298,7 +3298,7 @@
   </Item>
   <Item>
     <ID>ArtificialHand</ID>
-    <Name>prothese de main</Name>
+    <Name>prthese de main</Name>
     <GroupName>prosthetic hand</GroupName>
     
     <SpriteID>
