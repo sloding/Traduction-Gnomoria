@@ -638,13 +638,13 @@
         <ToHitWeight>0.75</ToHitWeight>
         <Limb>false</Limb>
         <ConnectsTo>
-          <Name>back leg</Name>
+          <Name>pattes arriere</Name>
           <BodyPartID>AlpacaLeg</BodyPartID>
           <MaterialID>AlpacaBone</MaterialID>
           <ToHitWeight>0.3</ToHitWeight>
           <Symmetrical>true</Symmetrical>
           <ConnectsTo>
-            <Name>back hoof</Name>
+            <Name>sabot arriere</Name>
             <BodyPartID>AlpacaHoof</BodyPartID>
             <MaterialID>AlpacaBone</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
@@ -674,13 +674,13 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>front leg</Name>
+        <Name>pattes avant</Name>
         <BodyPartID>AlpacaLeg</BodyPartID>
         <MaterialID>AlpacaBone</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
         <Symmetrical>true</Symmetrical>
         <ConnectsTo>
-          <Name>front hoof</Name>
+          <Name>sabot avant</Name>
           <BodyPartID>AlpacaHoof</BodyPartID>
           <MaterialID>AlpacaBone</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
@@ -712,13 +712,13 @@
         <ToHitWeight>0.75</ToHitWeight>
         <Limb>false</Limb>
         <ConnectsTo>
-          <Name>back leg</Name>
+          <Name>pattes arriere</Name>
           <BodyPartID>YakLeg</BodyPartID>
           <MaterialID>YakBone</MaterialID>
           <ToHitWeight>0.3</ToHitWeight>
           <Symmetrical>true</Symmetrical>
           <ConnectsTo>
-            <Name>back hoof</Name>
+            <Name>sabot arriere</Name>
             <BodyPartID>YakHoof</BodyPartID>
             <MaterialID>YakBone</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
@@ -748,13 +748,13 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>front leg</Name>
+        <Name>pattes avant</Name>
         <BodyPartID>YakLeg</BodyPartID>
         <MaterialID>YakBone</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
         <Symmetrical>true</Symmetrical>
         <ConnectsTo>
-          <Name>front hoof</Name>
+          <Name>sabot avant</Name>
           <BodyPartID>YakHoof</BodyPartID>
           <MaterialID>YakBone</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
@@ -779,7 +779,7 @@
       <ToHitWeight>1</ToHitWeight>
       <Limb>false</Limb>
       <ConnectsTo>
-        <Name>wing</Name>
+        <Name>ailes</Name>
         <BodyPartID>EmuWing</BodyPartID>
         <MaterialID>EmuBone</MaterialID>
         <ToHitWeight>0.75</ToHitWeight>
@@ -807,7 +807,7 @@
             <Symmetrical>true</Symmetrical>
           </ConnectsTo>
           <ConnectsTo>
-            <Name>beak</Name>
+            <Name>le bec</Name>
             <BodyPartID>EmuBeak</BodyPartID>
             <MaterialID>EmuBone</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
@@ -822,7 +822,7 @@
         <ToHitWeight>0.5</ToHitWeight>
         <Symmetrical>true</Symmetrical>
         <ConnectsTo>
-          <Name>claw</Name>
+          <Name>griffes</Name>
           <BodyPartID>EmuClaw</BodyPartID>
           <MaterialID>EmuBone</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
@@ -852,7 +852,7 @@
           <ToHitWeight>0.3</ToHitWeight>
           <Symmetrical>true</Symmetrical>
           <ConnectsTo>
-            <Name>back paw</Name>
+            <Name>pattes arriere</Name>
             <BodyPartID>HoneyBadgerFoot</BodyPartID>
             <MaterialID>HoneyBadgerBone</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
@@ -895,7 +895,7 @@
         <ToHitWeight>0.5</ToHitWeight>
         <Symmetrical>true</Symmetrical>
         <ConnectsTo>
-          <Name>front paw</Name>
+          <Name>pattes avant</Name>
           <BodyPartID>HoneyBadgerHand</BodyPartID>
           <MaterialID>HoneyBadgerBone</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
@@ -925,14 +925,14 @@
           <ToHitWeight>0.3</ToHitWeight>
           <Symmetrical>true</Symmetrical>
           <ConnectsTo>
-            <Name>back foot</Name>
+            <Name>pattes arriere</Name>
             <BodyPartID>MonitorLizardFoot</BodyPartID>
             <MaterialID>MonitorLizardBone</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
           </ConnectsTo>
         </ConnectsTo>
         <ConnectsTo>
-          <Name>tail</Name>
+          <Name>queue</Name>
           <BodyPartID>MonitorLizardTail</BodyPartID>
           <MaterialID>MonitorLizardBone</MaterialID>
           <ToHitWeight>0.5</ToHitWeight>
@@ -974,7 +974,7 @@
         <ToHitWeight>0.5</ToHitWeight>
         <Symmetrical>true</Symmetrical>
         <ConnectsTo>
-          <Name>front foot</Name>
+          <Name>pattes avant</Name>
           <BodyPartID>MonitorLizardHand</BodyPartID>
           <MaterialID>MonitorLizardBone</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
@@ -1004,7 +1004,7 @@
           <ToHitWeight>0.3</ToHitWeight>
           <Symmetrical>true</Symmetrical>
           <ConnectsTo>
-            <Name>back paw</Name>
+            <Name>pattes arriere</Name>
             <BodyPartID>BearFoot</BodyPartID>
             <MaterialID>BearBone</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
@@ -1047,7 +1047,7 @@
         <ToHitWeight>0.5</ToHitWeight>
         <Symmetrical>true</Symmetrical>
         <ConnectsTo>
-          <Name>front paw</Name>
+          <Name>pattes avant</Name>
           <BodyPartID>BearHand</BodyPartID>
           <MaterialID>BearBone</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
@@ -1065,13 +1065,13 @@
       <ToHitWeight>1</ToHitWeight>
       <Limb>false</Limb>
       <ConnectsTo>
-        <Name>abdoman</Name>
+        <Name>abdomen</Name>
         <BodyPartID>SpiderAbdoman</BodyPartID>
         <MaterialID>ThickChitin</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
         <Limb>false</Limb>
         <ConnectsTo>
-          <Name>stinger</Name>
+          <Name>dard</Name>
           <BodyPartID>SpiderStinger</BodyPartID>
           <MaterialID>ThinChitin</MaterialID>
           <ToHitWeight>0.05</ToHitWeight>
@@ -1079,42 +1079,42 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>fangs</Name>
+        <Name>crocs</Name>
         <BodyPartID>SpiderFang</BodyPartID>
         <MaterialID>ThinChitin</MaterialID>
         <ToHitWeight>0.05</ToHitWeight>
         <Limb>false</Limb>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>front leg</Name>
+        <Name>pattes avant</Name>
         <BodyPartID>SpiderLeg</BodyPartID>
         <MaterialID>ThinChitin</MaterialID>
         <ToHitWeight>0.1</ToHitWeight>
         <Symmetrical>true</Symmetrical>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>front middle leg</Name>
+        <Name>pattes avant centrales</Name>
         <BodyPartID>SpiderLeg</BodyPartID>
         <MaterialID>ThinChitin</MaterialID>
         <ToHitWeight>0.1</ToHitWeight>
         <Symmetrical>true</Symmetrical>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>back middle leg</Name>
+        <Name>pattes arriere centrales</Name>
         <BodyPartID>SpiderLeg</BodyPartID>
         <MaterialID>ThinChitin</MaterialID>
         <ToHitWeight>0.1</ToHitWeight>
         <Symmetrical>true</Symmetrical>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>back leg</Name>
+        <Name>pattes arriere</Name>
         <BodyPartID>SpiderLeg</BodyPartID>
         <MaterialID>ThinChitin</MaterialID>
         <ToHitWeight>0.1</ToHitWeight>
         <Symmetrical>true</Symmetrical>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>anterior median eye</Name>
+        <Name>yeux medianes anterieures</Name>
         <BodyPartID>GnomeEye</BodyPartID>
         <MaterialID>StandardWeakFlesh</MaterialID>
         <ToHitWeight>0.01</ToHitWeight>
@@ -1122,7 +1122,7 @@
         <Symmetrical>true</Symmetrical>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>posterior median eye</Name>
+        <Name>yeux medianes posterieurs</Name>
         <BodyPartID>GnomeEye</BodyPartID>
         <MaterialID>StandardWeakFlesh</MaterialID>
         <ToHitWeight>0.01</ToHitWeight>
@@ -1130,7 +1130,7 @@
         <Symmetrical>true</Symmetrical>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>anterior lateral eye</Name>
+        <Name>yeux anterieurs lateraux</Name></Name>
         <BodyPartID>GnomeEye</BodyPartID>
         <MaterialID>StandardWeakFlesh</MaterialID>
         <ToHitWeight>0.01</ToHitWeight>
@@ -1138,7 +1138,7 @@
         <Symmetrical>true</Symmetrical>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>posterior lateral eye</Name>
+        <Name>yeux posterieurs lateraux</Name>
         <BodyPartID>GnomeEye</BodyPartID>
         <MaterialID>StandardWeakFlesh</MaterialID>
         <ToHitWeight>0.01</ToHitWeight>
@@ -1532,7 +1532,7 @@
         <ToHitWeight>0.75</ToHitWeight>
         <Limb>false</Limb>
         <ConnectsTo>
-          <Name>stinger</Name>
+          <Name>dard</Name>
           <BodyPartID>MantStinger</BodyPartID>
           <MaterialID>ThinChitin</MaterialID>
           <ToHitWeight>0.25</ToHitWeight>
@@ -1586,7 +1586,7 @@
           <Offset>0 9</Offset>
         </Tile>
         <ConnectsTo>
-          <Name>compound eye</Name>
+          <Name>oeil compose</Name>
           <BodyPartID>GnomeEye</BodyPartID>
           <MaterialID>StandardWeakFlesh</MaterialID>
           <ToHitWeight>0.05</ToHitWeight>
@@ -1594,7 +1594,7 @@
           <Symmetrical>true</Symmetrical>
         </ConnectsTo>
         <ConnectsTo>
-          <Name>mandibles</Name>
+          <Name>mandibules</Name>
           <BodyPartID>MantMandibles</BodyPartID>
           <MaterialID>ThinChitin</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
@@ -1602,7 +1602,7 @@
           <Hand>true</Hand>
         </ConnectsTo>
         <ConnectsTo>
-          <Name>antennae</Name>
+          <Name>antennes</Name>
           <BodyPartID>MantAntennae</BodyPartID>
           <MaterialID>ThinChitin</MaterialID>
           <ToHitWeight>0.2</ToHitWeight>
@@ -1648,21 +1648,21 @@
         <Limb>false</Limb>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>front leg</Name>
+        <Name>pattes avant</Name>
         <BodyPartID>BeetleLeg</BodyPartID>
         <MaterialID>ThinChitin</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
         <Symmetrical>true</Symmetrical>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>middle leg</Name>
+        <Name>pattes du millieu</Name>
         <BodyPartID>BeetleLeg</BodyPartID>
         <MaterialID>ThinChitin</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
         <Symmetrical>true</Symmetrical>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>back leg</Name>
+        <Name>pattes arriere</Name>
         <BodyPartID>BeetleLeg</BodyPartID>
         <MaterialID>ThinChitin</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
@@ -1684,7 +1684,7 @@
           <Offset>0 9</Offset>
         </Tile>
         <ConnectsTo>
-          <Name>compound eye</Name>
+          <Name>oeil compose</Name>
           <BodyPartID>GnomeEye</BodyPartID>
           <MaterialID>StandardWeakFlesh</MaterialID>
           <ToHitWeight>0.05</ToHitWeight>
@@ -1692,14 +1692,14 @@
           <Symmetrical>true</Symmetrical>
         </ConnectsTo>
         <ConnectsTo>
-          <Name>mandibles</Name>
+          <Name>mandibules</Name>
           <BodyPartID>BeetleMandibles</BodyPartID>
           <MaterialID>ThinChitin</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
           <Limb>false</Limb>
         </ConnectsTo>
         <ConnectsTo>
-          <Name>antennae</Name>
+          <Name>antennes</Name>
           <BodyPartID>BeetleAntennae</BodyPartID>
           <MaterialID>ThinChitin</MaterialID>
           <ToHitWeight>0.2</ToHitWeight>
@@ -1712,7 +1712,7 @@
   <Item>
     <ID>BeetleCocoon</ID>
     <MainBody>
-      <Name>shell</Name>
+      <Name>coquille</Name>
       <BodyPartID>BeetleCocoon</BodyPartID>
       <MaterialID>ThinMantChitin</MaterialID>
       <ToHitWeight>1</ToHitWeight>
