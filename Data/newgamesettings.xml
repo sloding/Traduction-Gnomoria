@@ -85,12 +85,12 @@
       <RaceID>Skeleton</RaceID>
     </EnemyRaceIDGroup>
     <EnemyRaceIDGroup>
-      <Name>Coleopteres</Name>
+      <Name>Scarabees</Name>
       <RaceID>Beetle</RaceID>
       <RaceID>BeetleCocoon</RaceID>
     </EnemyRaceIDGroup>
     <EnemyRaceIDGroup>
-      <Name>Araignées</Name>
+      <Name>Araignees</Name>
       <RaceID>Spider</RaceID>
     </EnemyRaceIDGroup>
   </EnemyRaceOptions>
