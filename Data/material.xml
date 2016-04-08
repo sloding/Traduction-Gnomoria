@@ -742,7 +742,7 @@
     </Heat>
     <Sustains>1800</Sustains>
     <ID>ThinChitin</ID>
-    <Name>chitine fine</Name>
+    <Name>chitine mince</Name>
     <Type>Bone</Type>
     <Value>1</Value>
     <Strength>1.5</Strength>
@@ -762,7 +762,7 @@
     </Heat>
     <Sustains>4800</Sustains>
     <ID>ThickChitin</ID>
-    <Name>chitin epaisse</Name>
+    <Name>chitine epaisse</Name>
     <Type>Bone</Type>
     <Value>1</Value>
     <Strength>1.5</Strength>
@@ -809,7 +809,7 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>YakHide</ID>
-    <Name>cuir de yak</Name>
+    <Name>peau de yak</Name>
     <GroupName>yak</GroupName>
     <Type>Hide</Type>
     <Value>2</Value>
@@ -936,7 +936,7 @@
     </Heat>
     <Sustains>4800</Sustains>
     <ID>ToughOgreHide</ID>
-    <Name>peau dur d ogre</Name>
+    <Name>peau d ogre a 2 tetes</Name>
     <GroupName>two-headed ogre</GroupName>
     <Type>Flesh</Type>
     <Value>16</Value>
@@ -1068,7 +1068,7 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>MonitorLizardHide</ID>
-    <Name>peau de lezard</Name>
+    <Name>peau de varan</Name>
     <GroupName>monitor lizard</GroupName>
     <Type>Hide</Type>
     <Value>2</Value>
