@@ -58,15 +58,15 @@
   <EnemyRaceOptions>
     <EnemyRaceIDGroup>
       <Name>Animaux sauvages</Name>
-      <RaceID>HoneyBadger</RaceID>
-      <RaceID>MonitorLizard</RaceID>
-      <RaceID>Bear</RaceID>
+      <RaceID> Blaireau</RaceID>
+      <RaceID>Varan</RaceID>
+      <RaceID>Ours</RaceID>
     </EnemyRaceIDGroup>
     <EnemyRaceIDGroup>
-      <Name>Goblins</Name>
-      <RaceID>Goblin</RaceID>
+      <Name>Gobelins</Name>
+      <RaceID>Gobelin</RaceID>
       <RaceID>Ogre</RaceID>
-      <RaceID>BlueOgre</RaceID>
+      <RaceID>Ogre bleu</RaceID>
     </EnemyRaceIDGroup>
     <EnemyRaceIDGroup>
       <Name>Mants</Name>
@@ -82,146 +82,146 @@
     </EnemyRaceIDGroup>
     <EnemyRaceIDGroup>
       <Name>Squelettes</Name>
-      <RaceID>Skeleton</RaceID>
+      <RaceID>Squelette</RaceID>
     </EnemyRaceIDGroup>
     <EnemyRaceIDGroup>
       <Name>Scarabees</Name>
-      <RaceID>Beetle</RaceID>
-      <RaceID>BeetleCocoon</RaceID>
+      <RaceID>Scarabee</RaceID>
+      <RaceID>Cocon de scarabee</RaceID>
     </EnemyRaceIDGroup>
     <EnemyRaceIDGroup>
       <Name>Araignees</Name>
-      <RaceID>Spider</RaceID>
+      <RaceID>Araignee</RaceID>
     </EnemyRaceIDGroup>
   </EnemyRaceOptions>
   <Profession>
     <Name>Mineur</Name>
-    <Skill>Mining</Skill>
-    <Skill>Masonry</Skill>
-    <Skill>Stonecarving</Skill>
-    <Skill>Hauling</Skill>
+    <Skill>Minage</Skill>
+    <Skill>Maçonnerie</Skill>
+    <Skill>Sculpture sur pierre</Skill>
+    <Skill>Transport</Skill>
   </Profession>
   <Profession>
     <Name>Bucheron</Name>
-    <Skill>Woodcutting</Skill>
-    <Skill>Carpentry</Skill>
-    <Skill>Woodcarving</Skill>
-    <Skill>Hauling</Skill>
+    <Skill>Bucheronnage</Skill>
+    <Skill>Charpenterie</Skill>
+    <Skill>Sculpture sur bois</Skill>
+    <Skill>Transport</Skill>
   </Profession>
   <Profession>
     <Name>Agriculteur</Name>
-    <Skill>Farming</Skill>
+    <Skill>Agriculture</Skill>
     <Skill>Horticulture</Skill>
-    <Skill>Brewing</Skill>
-    <Skill>Weaving</Skill>
-    <Skill>Tailoring</Skill>
-    <Skill>Cooking</Skill>
-    <Skill>Hauling</Skill>
+    <Skill>Brassage</Skill>
+    <Skill>Tissage</Skill>
+    <Skill>Couture</Skill>
+    <Skill>Cuisine</Skill>
+    <Skill>Transport</Skill>
   </Profession>
   <Profession>
-    <Name>Rancher</Name>
-    <Skill>AnimalHusbandry</Skill>
-    <Skill>Butchery</Skill>
-    <Skill>Cooking</Skill>
-    <Skill>Leatherworking</Skill>
-    <Skill>Hauling</Skill>
+    <Name>Eleveur</Name>
+    <Skill>Elevage</Skill>
+    <Skill>Boucherie</Skill>
+    <Skill>Cuisine</Skill>
+    <Skill>Travail du cuir</Skill>
+    <Skill>Transport</Skill>
   </Profession>
   <Profession>
     <Name>Constructeur</Name>
     <Skill>Construction</Skill>
-    <Skill>Hauling</Skill>
+    <Skill>Transport</Skill>
   </Profession>
   <Profession>
     <Name>Forgeron</Name>
-    <Skill>Smelting</Skill>
-    <Skill>Blacksmithing</Skill>
-    <Skill>Metalworking</Skill>
-    <Skill>ArmorCrafting</Skill>
-    <Skill>WeaponCrafting</Skill>
-    <Skill>Hauling</Skill>
+    <Skill>Fonte</Skill>
+    <Skill>Forge</Skill>
+    <Skill>Travail du metal</Skill>
+    <Skill>Fabrication d'armure</Skill>
+    <Skill>Armurerie</Skill>
+    <Skill>Transport</Skill>
   </Profession>
   <Profession>
     <Name>Ingenieur</Name>
-    <Skill>Engineering</Skill>
-    <Skill>Machining</Skill>
-    <Skill>Mechanic</Skill>
-    <Skill>Tinkering</Skill>
-    <Skill>Hauling</Skill>
+    <Skill>Ingenierie</Skill>
+    <Skill>Machinerie</Skill>
+    <Skill>Mecanique</Skill>
+    <Skill>Bricolage</Skill>
+    <Skill>Transport</Skill>
   </Profession>
   <Profession>
     <Name>Bijoutier</Name>
-    <Skill>Gemcutting</Skill>
-    <Skill>JewelryMaking</Skill>
-    <Skill>Hauling</Skill>
+    <Skill>taillerie</Skill>
+    <Skill>Bijouterie</Skill>
+    <Skill>Transport</Skill>
   </Profession>
   <Settler>
     <Offset>-1 -1</Offset>
     <RaceID>Gnome</RaceID>
-    <Profession>Miner</Profession>
+    <Profession>Mineur</Profession>
     <HeldItem>
       <Item>
-        <ItemID>Pickaxe</ItemID>
+        <ItemID>Pioche</ItemID>
       </Item>
-      <MaterialID>Copper</MaterialID>
+      <MaterialID>Cuivre</MaterialID>
     </HeldItem>
   </Settler>
   <Settler>
     <Offset>-1 -1</Offset>
     <RaceID>Gnome</RaceID>
-    <Profession>Miner</Profession>
+    <Profession>Mineur</Profession>
     <HeldItem>
       <Item>
-        <ItemID>Pickaxe</ItemID>
+        <ItemID>Pioche</ItemID>
       </Item>
-      <MaterialID>Copper</MaterialID>
+      <MaterialID>Cuivre</MaterialID>
     </HeldItem>
   </Settler>
   <Settler>
     <Offset>0 -1</Offset>
     <RaceID>Gnome</RaceID>
-    <Profession>Woodcutter</Profession>
+    <Profession>Bucheron</Profession>
     <HeldItem>
       <Item>
-        <ItemID>FellingAxe</ItemID>
+        <ItemID>Hache</ItemID>
       </Item>
-      <MaterialID>Copper</MaterialID>
+      <MaterialID>Cuivre</MaterialID>
     </HeldItem>
   </Settler>
   <Settler>
     <Offset>0 -1</Offset>
     <RaceID>Gnome</RaceID>
-    <Profession>Woodcutter</Profession>
+    <Profession>Bucheron</Profession>
     <HeldItem>
       <Item>
-        <ItemID>FellingAxe</ItemID>
+        <ItemID>Hache</ItemID>
       </Item>
-      <MaterialID>Copper</MaterialID>
+      <MaterialID>Cuivre</MaterialID>
     </HeldItem>
   </Settler>
   <Settler>
     <Offset>1 -1</Offset>
     <RaceID>Gnome</RaceID>
-    <Profession>Farmer</Profession>
+    <Profession>Agriculteur</Profession>
   </Settler>
   <Settler>
     <Offset>1 -1</Offset>
     <RaceID>Gnome</RaceID>
-    <Profession>Farmer</Profession>
+    <Profession>Agriculteur</Profession>
   </Settler>
   <Settler>
     <Offset>-1 0</Offset>
     <RaceID>Gnome</RaceID>
-    <Profession>Rancher</Profession>
+    <Profession>Eleveur</Profession>
   </Settler>
   <Settler>
     <Offset>0 0</Offset>
     <RaceID>Gnome</RaceID>
-    <Profession>Builder</Profession>
+    <Profession>Constructeur</Profession>
   </Settler>
   <Settler>
     <Offset>0 0</Offset>
     <RaceID>Gnome</RaceID>
-    <Profession>Builder</Profession>
+    <Profession>Constructeur</Profession>
   </Settler>
   <FarmAnimal>
     <Offset>1 0</Offset>
@@ -235,7 +235,7 @@
   </FarmAnimal>
   <Container>
     <Item>
-      <ItemID>Crate</ItemID>
+      <ItemID>Caisse</ItemID>
     </Item>
     <Offset>-1 1</Offset>
     <Contents>
@@ -248,48 +248,48 @@
   </Container>
   <Container>
     <Item>
-      <ItemID>Crate</ItemID>
+      <ItemID>Caisse</ItemID>
     </Item>
     <Offset>-1 1</Offset>
     <Contents>
       <Item>
         <Item>
-          <ItemID>Bread</ItemID>
+          <ItemID>Pain</ItemID>
         </Item>
       </Item>
     </Contents>
   </Container>
   <Container>
     <Item>
-      <ItemID>Crate</ItemID>
+      <ItemID>Caisse</ItemID>
     </Item>
     <Offset>-1 1</Offset>
     <Contents>
       <Item>
         <Item>
-          <ItemID>Sword</ItemID>
+          <ItemID>Epee</ItemID>
         </Item>
         <Item>
-          <ItemID>HandAxe</ItemID>
+          <ItemID>Pioche</ItemID>
         </Item>
         <Item>
-          <ItemID>Hammer</ItemID>
+          <ItemID>Marteau</ItemID>
         </Item>
-        <MaterialID>Copper</MaterialID>
+        <MaterialID>Cuivre</MaterialID>
         <Quantity>1</Quantity>
       </Item>
       <Item>
         <Item>
-          <ItemID>Breastplate</ItemID>
+          <ItemID>Plastron</ItemID>
         </Item>
-        <MaterialID>Copper</MaterialID>
+        <MaterialID>Cuivre</MaterialID>
         <Quantity>1</Quantity>
       </Item>
       <Item>
         <Item>
-          <ItemID>Helmet</ItemID>
+          <ItemID>Casque</ItemID>
         </Item>
-        <MaterialID>Copper</MaterialID>
+        <MaterialID>Cuivre</MaterialID>
         <Quantity>1</Quantity>
       </Item>
       <Item>
@@ -301,67 +301,67 @@
   </Container>
   <Container>
     <Item>
-      <ItemID>Bag</ItemID>
+      <ItemID>Sac</ItemID>
     </Item>
     <Offset>0 1</Offset>
     <Contents>
       <Item>
         <Item>
-          <ItemID>Seed</ItemID>
+          <ItemID>Graine</ItemID>
         </Item>
-        <MaterialID>Strawberry</MaterialID>
+        <MaterialID>Fraise</MaterialID>
       </Item>
     </Contents>
   </Container>
   <Container>
     <Item>
-      <ItemID>Bag</ItemID>
+      <ItemID>Sac</ItemID>
     </Item>
     <Offset>0 1</Offset>
     <Contents>
       <Item>
         <Item>
-          <ItemID>Seed</ItemID>
+          <ItemID>Graine</ItemID>
         </Item>
-        <MaterialID>Wheat</MaterialID>
+        <MaterialID>Ble</MaterialID>
       </Item>
     </Contents>
   </Container>
   <Container>
     <Item>
-      <ItemID>Barrel</ItemID>
+      <ItemID>Tonneau</ItemID>
     </Item>
     <Offset>1 1</Offset>
     <Contents>
       <Item>
         <Item>
-          <ItemID>Wine</ItemID>
+          <ItemID>Vin</ItemID>
         </Item>
       </Item>
     </Contents>
   </Container>
   <Container>
     <Item>
-      <ItemID>Barrel</ItemID>
+      <ItemID>Tonneau</ItemID>
     </Item>
     <Offset>1 1</Offset>
     <Contents>
       <Item>
         <Item>
-          <ItemID>Wine</ItemID>
+          <ItemID>Vin</ItemID>
         </Item>
       </Item>
     </Contents>
   </Container>
   <Pile>
     <Item>
-      <ItemID>Straw</ItemID>
+      <ItemID>Paille</ItemID>
     </Item>
     <Offset>0 1</Offset>
   </Pile>
   <Pile>
     <Item>
-      <ItemID>Straw</ItemID>
+      <ItemID>Paille</ItemID>
     </Item>
     <Offset>0 1</Offset>
   </Pile>
